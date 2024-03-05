@@ -1,0 +1,77 @@
+{
+	"name": "tagclassname",
+	"displayName": "Tag ClassName",
+	"description": "This snippet is a useful tool for react developers, allowing the rapid creation of HTML elements with class attributes. When entering the prefix associated with each tag HTML (such as divc for div), the editor automatically inserts the tag with a classname attribute, which is the correct syntax to specify JSX/React classes, instead of the used class attribute in standard HTML.",
+	"version": "0.0.7",
+	"license": "MIT",
+	"publisher": "ea2ba328-a5dd-6a41-b379-64f0401bd2b0",
+	"icon": "assets/logo-tagc.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alipiopereira/tagclassname"
+	},
+	"keywords": [
+		"tagclassname",
+		"tagc",
+		"className",
+		"React",
+		"JSX",
+		"HTML",
+		"class",
+		"tag",
+		"HTML tag",
+		"HTML element",
+		"HTML elements",
+		"HTML tags",
+		"HTML attributes",
+		"HTML attribute",
+		"HTML class",
+		"HTML classes",
+		"HTML class attribute"
+	],
+	"engines": {
+		"vscode": "^1.84.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "jsx",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "tsx",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2efbeaed-60ec-4695-804f-d9355a178d02",
+		"publisherId": "3dc1df1f-4919-4d84-9f61-4a62e4f3051f",
+		"publisherDisplayName": "allipiopereira",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707290695512,
+		"pinned": false
+	}
+}

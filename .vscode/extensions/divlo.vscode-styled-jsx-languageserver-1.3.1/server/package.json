@@ -1,0 +1,32 @@
+{
+  "name": "styled-jsx-languageserver",
+  "description": "styled-jsx language server",
+  "version": "0.0.1",
+  "author": "Divlo",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "ts-standard": {
+    "files": [
+      "./src/**/*.ts"
+    ],
+    "envs": [
+      "node"
+    ]
+  },
+  "scripts": {
+    "lint": "ts-standard | snazzy",
+    "format": "ts-standard --fix | snazzy"
+  },
+  "dependencies": {
+    "typescript": "4.5.5",
+    "vscode-css-languageservice": "^5.1.13",
+    "vscode-languageserver": "^7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.4"
+  },
+  "devDependencies": {
+    "snazzy": "9.0.0",
+    "ts-standard": "11.0.0"
+  }
+}

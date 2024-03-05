@@ -1,0 +1,200 @@
+{
+    "SKILLHUB Redux  - Old Store ": {
+        "prefix": "srt",
+        "body": [
+            "import { createStore, combineReducers, applyMiddleware } from \"redux\"",
+            "import { composeWithDevTools } from \"redux-devtools-extension\"",
+            "import thunk from \"redux-thunk\"",
+            "",
+            "const rootReducer = combineReducers({",
+            "    ${1:key}: ${2:reducerName}",
+            "})",
+            "",
+            "const reduxStore = createStore(",
+            "    rootReducer,",
+            "    {},",
+            "    composeWithDevTools(applyMiddleware(thunk)))",
+            "",
+            "export default reduxStore"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Old Create Store "
+    },
+    "SKILLHUB Redux - Reducer ": {
+        "prefix": "srred",
+        "body": [
+            "export const todoReducer = (state = { ${1:initialState}: [] }, { type, payload }) => {",
+            "    switch (type) {",
+            "        case ${1:CASE_TYPE}: return {}",
+            "        default: return state",
+            "    }",
+            "}"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Reducer "
+    },
+    "SKILLHUB Redux  - Action With Redux Thunk ": {
+        "prefix": "sract",
+        "body": [
+            "export const ${1:actionName}= userData => async (dispatch, getState) => {",
+            "    try {",
+            "        dispatch({ type: ${2:actionType}, })",
+            "        const { data } = await axios.post(${3:URL}, userData)",
+            "        dispatch({ type: ${4:actionType}, payload: data })",
+            "    } catch (error) {",
+            "         dispatch({ type: ${5:actionType}, payload: error.message })",
+            "    }",
+            "}"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Action With Redux Thunk "
+    },
+    "SKILLHUB Redux - Selector": {
+        "prefix": "srsel",
+        "body": [
+            "const { loading, error, ${1:reducerKey}} = useSelector(state => state.${2:storeKey})"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Selector"
+    },
+    "SKILLHUB Formik - Formik Setup": {
+        "prefix": "srfmk",
+        "body": [
+            "  const formik = useFormik({",
+            "        initialValues: {",
+            "            name: \"\",",
+            "        },",
+            "        validationSchema: yup.object({",
+            "            name: yup.string().required(\"Enter Name\"),",
+            "        }),",
+            "        onSubmit: (values, { resetForm }) => {",
+            "            resetForm()",
+            "        }",
+            "    })"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Formik"
+    },
+    "SKILLHUB Toolkit - Toolkit Store": {
+        "prefix": "srts",
+        "body": [
+            "import { configureStore } from \"@reduxjs/toolkit\";",
+            "",
+            "",
+            "const reduxStore = configureStore({",
+            "    reducer: {",
+            "        ${1:key}: ${1:reuderName},",
+            "    },",
+            "})",
+            "",
+            "export default reduxStore"
+        ],
+        "description": "SKILLHUB React Redux Toolkit - Toolkit Store"
+    },
+    "SKILLHUB Toolkit - Action": {
+        "prefix": "srta",
+        "body": [
+            "import { createAsyncThunk } from \"@reduxjs/toolkit\";",
+            "import api from \"../api\";",
+            "",
+            "export const ${1:actionName}= createAsyncThunk(",
+            "    \"${1:actionName}\",",
+            "    async (userData, { rejectWithValue, getState }) => {",
+            "        try {",
+            "        const { data } = await api.get(\"/${2:apiEndPoint}\")",
+            "     } catch (error) {",
+            "            return rejectWithValue(error.message || \"something went wrong\")",
+            "        }",
+            "    })"
+        ],
+        "description": "SKILLHUB Toolkit - Action"
+    },
+    "SKILLHUB Toolkit - Slice": {
+        "prefix": "srtslice",
+        "body": [
+            "import { createSlice } from \"@reduxjs/toolkit\";",
+            "",
+            "const ${1:sliceName}= createSlice({",
+            "    name: \"${1:sliceName}\",",
+            "    initialState: {},",
+            "    reducers: {",
+            "        invalidate: (state, { payload }) => {",
+            "            payload.forEach(item => {",
+            "                state[item] = false",
+            "            })",
+            "        }",
+            "    },",
+            "    extraReducers: builder => builder",
+            "        .addCase(${2:actionName}.pending, (state, { payload }) => {",
+            "            state.loading = true",
+            "        })",
+            "        .addCase(${2:actionName}.fulfilled, (state, { payload }) => {",
+            "            state.loading = false",
+            "        })",
+            "        .addCase(${2:actionName}.rejected, (state, { payload }) => {",
+            "            state.loading = false",
+            "            state.error = payload",
+            "        })",
+            "       ",
+            "})",
+            "",
+            "export const { invalidate } = ${1:sliceName}.actions",
+            "export default ${1:sliceName}.reducer"
+        ],
+        "description": "SKILLHUB Toolkit - Slice"
+    },
+    "SKILLHUB Router - Routing Template": {
+        "prefix": "srrouting",
+        "body": [
+            " <BrowserRouter>",
+            "      <Routes>",
+            "        <Route path='/' element={<Home />} />",
+            "        <Route path='*' element={<h1>Page Not Found</h1>} />",
+            "      </Routes>",
+            "    </BrowserRouter>"
+        ],
+        "description": "SKILLHUB Toolkit - Routing"
+    },
+    "SKILLHUB Router - Routing Link": {
+        "prefix": "srlink",
+        "body": [
+            "<Link to=\"/${1:path}\">${1:displayName}</Link>"
+        ],
+        "description": "SKILLHUB Toolkit - Routing"
+    },
+    "SKILLHUB Toolkit - Redux Toolkit Api": {
+        "prefix": "srtapi",
+        "body": [
+            "import { createApi, fetchBaseQuery } from \"@reduxjs/toolkit/query/react\"",
+            "",
+            "export const ContactSlice = createApi({",
+            "    reducerPath: \"api\",",
+            "    baseQuery: fetchBaseQuery({ baseUrl: \"http://localhost:5000\" }),",
+            "    tagTypes: [\"${1:tagName}\"],",
+            "    endpoints: (builder) => {",
+            "        return {",
+            "            getUsers: builder.query({",
+            "                query: () => {",
+            "                    return {",
+            "                        url: \"/${2:apiEndPoint}\",",
+            "                        method: \"GET\"",
+            "                    }",
+            "                },",
+            "                providesTags: [\"${1:tagName}\"]",
+            "            }),",
+            "            addUser: builder.mutation({",
+            "                query: userData => {",
+            "                    return {",
+            "                        url: \"/${2:apiEndPoint}\",",
+            "                        method: \"POST\",",
+            "                        body: userData",
+            "                    }",
+            "                },",
+            "                invalidatesTags: [\"${1:tagName}\"]",
+            "            }),",
+            "        ",
+            "        }",
+            "    }",
+            "})",
+            "",
+            "export const { useGetUsersQuery, useAddUserMutation} = ContactSlice",
+            ""
+        ],
+        "description": "SKILLHUB Toolkit - Redux Toolkit Api"
+    }
+}

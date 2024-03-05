@@ -1,0 +1,183 @@
+{
+	"divWithClassName": {
+	  "prefix": "divc",
+	  "body": ["<div className=\"$1\">$2</div>"],
+	  "description": "Create a div with a specific class"
+	},
+	"pWithClassName": {
+	  "prefix": "pc",
+	  "body": ["<p className=\"$1\">$2</p>"],
+	  "description": "Create a p with a specific class"
+	},
+	"spanWithClassName": {
+	  "prefix": "spanc",
+	  "body": ["<span className=\"$1\">$2</span>"],
+	  "description": "Create a span with a specific class"
+	},
+	"aWithClassName": {
+	  "prefix": "ac",
+	  "body": ["<a className=\"$1\">$2</a>"],
+	  "description": "Create a anchor with a specific class"
+	},
+	"buttonWithClassName": {
+	  "prefix": "buttonc",
+	  "body": ["<button className=\"$1\">$2</button>"],
+	  "description": "Create a button with a specific class"
+	},
+	"liWithClassName": {
+	  "prefix": "lic",
+	  "body": ["<li className=\"$1\">$2</li>"],
+	  "description": "Create a li with a specific class"
+	},
+	"ulWithClassName": {
+	  "prefix": "ulc",
+	  "body": ["<ul className=\"$1\">$2</ul>"],
+	  "description": "Create a ul with a specific class"
+	},
+	"h1WithClassName": {
+	  "prefix": "h1c",
+	  "body": ["<h1 className=\"$1\">$2</h1>"],
+	  "description": "Create a h1 with a specific class"
+	},
+	"h2WithClassName": {
+	  "prefix": "h2c",
+	  "body": ["<h2 className=\"$1\">$2</h2>"],
+	  "description": "Create a h2 with a specific class"
+	},
+	"h3WithClassName": {
+	  "prefix": "h3c",
+	  "body": ["<h3 className=\"$1\">$2</h3>"],
+	  "description": "Create a h3 with a specific class"
+	},
+	"h4WithClassName": {
+	  "prefix": "h4c",
+	  "body": ["<h4 className=\"$1\">$2</h4>"],
+	  "description": "Create a h4 with a specific class"
+	},
+	"h5WithClassName": {
+	  "prefix": "h5c",
+	  "body": ["<h5 className=\"$1\">$2</h5>"],
+	  "description": "Create a h5 with a specific class"
+	},
+	"h6WithClassName": {
+	  "prefix": "h6c",
+	  "body": ["<h6 className=\"$1\">$2</h6>"],
+	  "description": "Create a h6 with a specific class"
+	},
+	"inputWithClassName": {
+	  "prefix": "inputc",
+	  "body": ["<input className=\"$1\" />"],
+	  "description": "Create an input with a specific class"
+	},
+	"textareaWithClassName": {
+	  "prefix": "textareac",
+	  "body": ["<textarea className=\"$1\">$2</textarea>"],
+	  "description": "Create a textarea with a specific class"
+	},
+	"imgWithClassName": {
+	  "prefix": "imgc",
+	  "body": ["<img className=\"$1\" src=\"$2\" />"],
+	  "description": "Create an img with a specific class"
+	},
+	"svgWithClassName": {
+	  "prefix": "svgc",
+	  "body": ["<svg className=\"$1\">$2</svg>"],
+	  "description": "Create a svg with a specific class"
+	},
+	"tableWithClassName": {
+	  "prefix": "tablec",
+	  "body": ["<table className=\"$1\">$2</table>"],
+	  "description": "Create a table with a specific class"
+	},
+	"tbodyWithClassName": {
+	  "prefix": "tbodyc",
+	  "body": ["<tbody className=\"$1\">$2</tbody>"],
+	  "description": "Create a tbody with a specific class"
+	},
+	"tdWithClassName": {
+	  "prefix": "tdc",
+	  "body": ["<td className=\"$1\">$2</td>"],
+	  "description": "Create a td with a specific class"
+	},
+	"theadWithClassName": {
+	  "prefix": "theadc",
+	  "body": ["<thead className=\"$1\">$2</thead>"],
+	  "description": "Create a thead with a specific class"
+	},
+	"tfootWithClassName": {
+	  "prefix": "tfootc",
+	  "body": ["<tfoot className=\"$1\">$2</tfoot>"],
+	  "description": "Create a tfoot with a specific class"
+	},
+	"selectWithClassName": {
+	  "prefix": "selectc",
+	  "body": ["<select className=\"$1\">$2</select>"],
+	  "description": "Create a select with a specific class"
+	},
+	"sectionWithClassName": {
+	  "prefix": "sectionc",
+	  "body": ["<section className=\"$1\">$2</section>"],
+	  "description": "Create a section with a specific class"
+	},
+	"preWithClassName": {
+	  "prefix": "prec",
+	  "body": ["<pre className=\"$1\">$2</pre>"],
+	  "description": "Create a pre with a specific class"
+	},
+	"pictureWithClassName": {
+	  "prefix": "picturec",
+	  "body": ["<picture className=\"$1\">$2</picture>"],
+	  "description": "Create a picture with a specific class"
+	},
+	"optionWithClassName": {
+	  "prefix": "optionc",
+	  "body": ["<option className=\"$1\">$2</option>"],
+	  "description": "Create an option with a specific class"
+	},
+	"optgroupWithClassName": {
+	  "prefix": "optgroupc",
+	  "body": ["<optgroup className=\"$1\">$2</optgroup>"],
+	  "description": "Create an optgroup with a specific class"
+	},
+	"navWithClassName": {
+	  "prefix": "navc",
+	  "body": ["<nav className=\"$1\">$2</nav>"],
+	  "description": "Create a nav with a specific class"
+	},
+	"mainWithClassName": {
+	  "prefix": "mainc",
+	  "body": ["<main className=\"$1\">$2</main>"],
+	  "description": "Create a main with a specific class"
+	},
+	"iframeWithClassName": {
+	  "prefix": "iframec",
+	  "body": ["<iframe className=\"$1\">$2</iframe>"],
+	  "description": "Create an iframe with a specific class"
+	},
+	"formWithClassName": {
+	  "prefix": "formc",
+	  "body": ["<form className=\"$1\">$2</form>"],
+	  "description": "Create a form with a specific class"
+	},
+	"footerWithClassName": {
+	  "prefix": "footerc",
+	  "body": ["<footer className=\"$1\">$2</footer>"],
+	  "description": "Create a footer with a specific class"
+	},
+	"figureWithClassName": {
+	  "prefix": "figurec",
+	  "body": ["<figure className=\"$1\">$2</figure>"],
+	  "description": "Create a figure with a specific class"
+	},
+	"captionWithClassName": {
+	  "prefix": "captionc",
+	  "body": ["<caption className=\"$1\">$2</caption>"],
+	  "description": "Create a caption with a specific class"
+	},
+	"canvasWithClassName": {
+	  "prefix": "canvasc",
+	  "body": ["<canvas className=\"$1\">$2</canvas>"],
+	  "description": "Create a canvas with a specific class"
+	}
+  }
+  

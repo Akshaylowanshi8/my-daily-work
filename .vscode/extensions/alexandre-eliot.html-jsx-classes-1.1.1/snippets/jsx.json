@@ -1,0 +1,379 @@
+{
+	"a with className": {
+		"prefix": "a.className",
+		"body": [
+			"<a href=\"$1\" className=\"$2\">$3</a>$0"
+		],
+		"description": "Create an anchor with className attribute(s)"
+	},
+
+	"b with className": {
+		"prefix": "b.className",
+		"body": [
+			"<b className=\"$1\">$2</b>$0"
+		],
+		"description": "Create bold text with className attribute(s)"
+	},
+
+	"body with className": {
+		"prefix": "body.className",
+		"body": [
+			"<body className=\"$1\">",
+			"\t$0",
+			"</body>"
+		],
+		"description": "Create a body with className attribute(s)"
+	},
+
+	"button with className": {
+		"prefix": "button.className",
+		"body": [
+			"<button type=\"$1\" className=\"$2\">$3</button>$0"
+		],
+		"description": "Create a button with className attribute(s)"
+	},
+
+	"div with className": {
+		"prefix": "div.className",
+		"body": [
+			"<div className=\"$1\">",
+			"\t$0",
+			"</div>"
+		],
+		"description": "Create a section with className attribute(s)"
+	},
+
+	"dl with className": {
+		"prefix": "dl.className",
+		"body": [
+			"<dl className=\"$1\">$2</dl>$0"
+		],
+		"description": "Create a description list with className attribute(s)"
+	},
+
+	"dt with className": {
+		"prefix": "dt.className",
+		"body": [
+			"<dt className=\"$1\">$2</dt>$0"
+		],
+		"description": "Create a term in a description list with className attribute(s)"
+	},
+
+	"em with className": {
+		"prefix": "em.className",
+		"body": [
+			"<em className=\"$1\">$2</em>$0"
+		],
+		"description": "Create emphasized text with className attribute(s)"
+	},
+
+	"footer with className": {
+		"prefix": "footer.className",
+		"body": [
+			"<footer className=\"$1\">",
+			"\t$0",
+			"</footer>"
+		],
+		"description": "Create a footer with className attribute(s)"
+	},
+
+	"form with className": {
+		"prefix": "form.className",
+		"body": [
+			"<form className=\"$1\">",
+			"\t$0",
+			"</form>"
+		],
+		"description": "Create an input form with className attribute(s)"
+	},
+
+	"h1 with className": {
+		"prefix": "h1.className",
+		"body": [
+			"<h1 className=\"$1\">$2</h1>$0"
+		],
+		"description": "Create a heading (h1) with className attribute(s)"
+	},
+
+	"h2 with className": {
+		"prefix": "h2.className",
+		"body": [
+			"<h2 className=\"$1\">$2</h2>$0"
+		],
+		"description": "Create a heading (h2) with className attribute(s)"
+	},
+
+	"h3 with className": {
+		"prefix": "h3.className",
+		"body": [
+			"<h3 className=\"$1\">$2</h3>$0"
+		],
+		"description": "Create a heading (h3) with className attribute(s)"
+	},
+
+	"h4 with className": {
+		"prefix": "h4.className",
+		"body": [
+			"<h4 className=\"$1\">$2</h4>$0"
+		],
+		"description": "Create a heading (h4) with className attribute(s)"
+	},
+
+	"h5 with className": {
+		"prefix": "h5.className",
+		"body": [
+			"<h5 className=\"$1\">$2</h5>$0"
+		],
+		"description": "Create a heading (h5) with className attribute(s)"
+	},
+
+	"h6 with className": {
+		"prefix": "h6.className",
+		"body": [
+			"<h6 className=\"$1\">$2</h6>$0"
+		],
+		"description": "Create a heading (h6) with className attribute(s)"
+	},
+
+	"header with className": {
+		"prefix": "header.className",
+		"body": [
+			"<header className=\"$1\">",
+			"\t$0",
+			"</header>"
+		],
+		"description": "Create a header with className attribute(s)"
+	},
+
+	"html with className": {
+		"prefix": "html.className",
+		"body": [
+			"<html className=\"$1\">",
+			"\t$0",
+			"</html>"
+		],
+		"description": "Create an html with className attribute(s)"
+	},
+
+	"idiv with className": {
+		"prefix": "idiv.className",
+		"body": [
+			"<div className=\"$1\">$2</div>$0"
+		],
+		"description": "Create an inline section with className attribute(s)"
+	},
+
+	"img with className": {
+		"prefix": "img.className",
+		"body": [
+			"<img src=\"$1\" alt=\"$2\" className=\"$3\">$0"
+		],
+		"description": "Create an image with className attribute(s)"
+	},
+
+	"input with className": {
+		"prefix": "input.className",
+		"body": [
+			"<input type=\"$1\" name=\"$2\" value=\"$3\" className=\"$4\">$0"
+		],
+		"description": "Create an input with className attribute(s)"
+	},
+
+	"label with className": {
+		"prefix": "label.className",
+		"body": [
+			"<label for=\"$1\" className=\"$2\">$3</label>$0"
+		],
+		"description": "Create a label for an input with className attribute(s)"
+	},
+
+	"li with className": {
+		"prefix": "li.className",
+		"body": [
+			"<li className=\"$1\">$2</li>$0"
+		],
+		"description": "Create a list item with className attribute(s)"
+	},
+
+	"nav with className": {
+		"prefix": "nav.className",
+		"body": [
+			"<nav className=\"$1\">$2</nav>$0"
+		],
+		"description": "Create a nav with className attribute(s)"
+	},
+
+	"ol with className": {
+		"prefix": "ol.className",
+		"body": [
+			"<ol className=\"$1\">",
+			"\t$0",
+			"</ol>"
+		],
+		"description": "Create an ordered list with className attribute(s)"
+	},
+
+	"p with className": {
+		"prefix": "p.className",
+		"body": [
+			"<p className=\"$1\">$2</p>$0"
+		],
+		"description": "Create a paragraph with className attribute(s)"
+	},
+
+	"q with className": {
+		"prefix": "q.className",
+		"body": [
+			"<q className=\"$1\">$2</q>$0"
+		],
+		"description": "Create a quotation with className attribute(s)"
+	},
+
+	"select with className": {
+		"prefix": "select.className",
+		"body": [
+			"<select className=\"$1\">",
+			"\t$0",
+			"</select>"
+		],
+		"description": "Create a drop-down list with className attribute(s)"
+	},
+
+	"small with className": {
+		"prefix": "small.className",
+		"body": [
+			"<small className=\"$1\">$2</small>$0"
+		],
+		"description": "Create smaller text with className attribute(s)"
+	},
+
+	"span with className": {
+		"prefix": "span.className",
+		"body": [
+			"<span className=\"$1\">$2</span>$0"
+		],
+		"description": "Create a span with className attribute(s)"
+	},
+
+	"strong with className": {
+		"prefix": "strong.className",
+		"body": [
+			"<strong className=\"$1\">$2</strong>$0"
+		],
+		"description": "Create strong text with className attribute(s)"
+	},
+
+	"sub with className": {
+		"prefix": "sub.className",
+		"body": [
+			"<sub className=\"$1\">$2</sub>$0"
+		],
+		"description": "Create subscripted text with className attribute(s)"
+	},
+
+	"sup with className": {
+		"prefix": "sup.className",
+		"body": [
+			"<sup className=\"$1\">$2</sup>$0"
+		],
+		"description": "Create superscripted text with className attribute(s)"
+	},
+
+	"table with className": {
+		"prefix": "table.className",
+		"body": [
+			"<table className=\"$1\">",
+			"\t$0",
+			"</table>"
+		],
+		"description": "Create a table with className attribute(s)"
+	},
+
+	"tbody with className": {
+		"prefix": "tbody.className",
+		"body": [
+			"<tbody className=\"$1\">",
+			"\t$0",
+			"</tbody>"
+		],
+		"description": "Create a table body with className attribute(s)"
+	},
+
+	"td with className": {
+		"prefix": "td.className",
+		"body": [
+			"<td className=\"$1\">$2</td>$0"
+		],
+		"description": "Create a table cell with className attribute(s)"
+	},
+
+	"textarea with className": {
+		"prefix": "textarea.className",
+		"body": [
+			"<textarea rows=\"$1\" cols=\"$2\" className=\"$3\">$4</textarea>$0"
+		],
+		"description": "Create a multiple line input with className attribute(s)"
+	},
+
+	"tfoot with className": {
+		"prefix": "tfoot.className",
+		"body": [
+			"<tfoot className=\"$1\">",
+			"\t$0",
+			"</tfoot>"
+		],
+		"description": "Create a table footer with className attribute(s)"
+	},
+
+	"th with className": {
+		"prefix": "th.className",
+		"body": [
+			"<th className=\"$1\">$2</th>$0"
+		],
+		"description": "Create a table header cell with className attribute(s)"
+	},
+
+	"thead with className": {
+		"prefix": "thead.className",
+		"body": [
+			"<thead className=\"$1\">",
+			"\t$0",
+			"</thead>"
+		],
+		"description": "Create a table header with className attribute(s)"
+	},
+
+	"title with className": {
+		"prefix": "title.className",
+		"body": [
+			"<title className=\"$1\">$2</title>$0"
+		],
+		"description": "Create a title with className attribute(s)"
+	},
+
+	"tr with className": {
+		"prefix": "tr.className",
+		"body": [
+			"<tr className=\"$1\">$2</tr>$0"
+		],
+		"description": "Create a table row with className attribute(s)"
+	},
+
+	"u with className": {
+		"prefix": "u.className",
+		"body": [
+			"<u className=\"$1\">$2</u>$0"
+		],
+		"description": "Create underlined text with className attribute(s)"
+	},
+
+	"ul with className": {
+		"prefix": "ul.className",
+		"body": [
+			"<ul className=\"$1\">",
+			"\t$0",
+			"</ul>"
+		],
+		"description": "Create an unordered list with className attribute(s)"
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"name": "jsxninja",
+	"displayName": "JSX Attribute Ninja",
+	"publisher": "ChetanDivekar",
+	"icon": "./logo.png",
+	"description": "A powerful extension for working with JSX attributes.",
+	"version": "0.2.1",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "javascript",
+				"extensions": [
+					".js"
+				]
+			},
+			{
+				"id": "javascriptreact",
+				"extensions": [
+					".jsx"
+				]
+			},
+			{
+				"id": "typescript",
+				"extensions": [
+					".ts"
+				]
+			},
+			{
+				"id": "typescriptreact",
+				"extensions": [
+					".tsx"
+				]
+			}
+		],
+		"documentFormattingProvider": true
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@types/glob": "^8.1.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "20.2.5",
+		"eslint": "^8.41.0",
+		"glob": "^8.1.0",
+		"mocha": "^10.2.0",
+		"typescript": "^5.1.3",
+		"@vscode/test-electron": "^2.3.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chetandivekar/JsxNinja.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chetandivekar/JsxNinja/issues"
+	},
+	"homepage": "https://github.com/chetandivekar/JsxNinja",
+	"__metadata": {
+		"id": "77dfc6af-4a1a-4af0-b993-601e9fdb48fe",
+		"publisherId": "1e6d51c2-60c7-4fc5-b8ef-8bb141d94dc3",
+		"publisherDisplayName": "Chetan Divekar",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707496121946,
+		"pinned": false
+	}
+}

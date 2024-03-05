@@ -1,0 +1,275 @@
+{
+  "axios:export-function": {
+    "prefix": "#ef",
+    "body": [
+      "export function ${1}(${2}) {",
+      "  return ${3}",
+      "}"
+    ],
+    "description": "函数导出"
+  },
+  "axios:get": {
+    "prefix": "#g",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.get('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:get-blob": {
+    "prefix": "#gb",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.getBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:get-document": {
+    "prefix": "#gd",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.getDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:get-text": {
+    "prefix": "#gt",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.getText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:get-array-buffer": {
+    "prefix": "#ga",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.getArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:get-stream": {
+    "prefix": "#gs",
+    "body": [
+      "export function ${1:get}(${2:params}) {",
+      "  return axiosHelpers.getStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head": {
+    "prefix": "#h",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.head('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head-blob": {
+    "prefix": "#hb",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.headBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head-document": {
+    "prefix": "#hd",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.headDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head-text": {
+    "prefix": "#ht",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.headText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head-array-buffer": {
+    "prefix": "#ha",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.headArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:head-stream": {
+    "prefix": "#hs",
+    "body": [
+      "export function ${1:head}(${2:params}) {",
+      "  return axiosHelpers.headStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options": {
+    "prefix": "#o",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.options('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options-blob": {
+    "prefix": "#ob",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.optionsBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options-document": {
+    "prefix": "#od",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.optionsDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options-text": {
+    "prefix": "#ot",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.optionsText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options-array-buffer": {
+    "prefix": "#oa",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.optionsArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:options-stream": {
+    "prefix": "#os",
+    "body": [
+      "export function ${1:options}(${2:params}) {",
+      "  return axiosHelpers.optionsStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete": {
+    "prefix": "#d",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.delete('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete-blob": {
+    "prefix": "#db",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.deleteBlob('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete-document": {
+    "prefix": "#dd",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.deleteDocument('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete-text": {
+    "prefix": "#dt",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.deleteText('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete-array-buffer": {
+    "prefix": "#da",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.deleteArrayBuffer('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:delete-stream": {
+    "prefix": "#ds",
+    "body": [
+      "export function ${1:remove}(${2:params}) {",
+      "  return axiosHelpers.deleteStream('${3:}', ${4:params})",
+      "}"
+    ]
+  },
+  "axios:post": {
+    "prefix": "#p",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axiosHelpers.post('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:post-json": {
+    "prefix": "#pj",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axiosHelpers.postJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:post-multipart": {
+    "prefix": "#pm",
+    "body": [
+      "export function ${1:add}(${2:data}) {",
+      "  return axiosHelpers.postMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:put": {
+    "prefix": "#pu",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axiosHelpers.put('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:put-json": {
+    "prefix": "#puj",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axiosHelpers.putJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:put-multipart": {
+    "prefix": "#pum",
+    "body": [
+      "export function ${1:update}(${2:data}) {",
+      "  return axiosHelpers.putMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:patch": {
+    "prefix": "#pa",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axiosHelpers.patch('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:patch-json": {
+    "prefix": "#paj",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axiosHelpers.patchJSON('${3:}', ${4:data})",
+      "}"
+    ]
+  },
+  "axios:patch-multipart": {
+    "prefix": "#pam",
+    "body": [
+      "export function ${1:patch}(${2:data}) {",
+      "  return axiosHelpers.patchMultipart('${3:}', ${4:data})",
+      "}"
+    ]
+  }
+}

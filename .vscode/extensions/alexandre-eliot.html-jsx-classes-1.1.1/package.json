@@ -1,0 +1,74 @@
+{
+	"name": "html-jsx-classes",
+	"displayName": "HTML/JSX Class Attribute Snippets",
+	"description": "Easily add class attributes while creating HTML/JSX tags.",
+	"version": "1.1.1",
+	"author": "mikepoirier & alexandre-eliot",
+	"publisher": "alexandre-eliot",
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#112233",
+		"theme": "dark"
+	},
+	"galleryFlags": [
+		"Public"
+	],
+	"homepage": "https://github.com/alexandre-eliot/JSX-HTML-Class-Snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexandre-eliot/JSX-HTML-Class-Snippets.git"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/jsx.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/jsx.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2a3b3086-4982-4626-842c-24ddd43dda7b",
+		"publisherId": "2e0ef084-3e3f-4b96-bc16-73e5c2809115",
+		"publisherDisplayName": "alexandre-eliot",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707290672428,
+		"pinned": false
+	}
+}

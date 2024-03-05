@@ -1,0 +1,38 @@
+{
+	"name": "styled-jsx-languageclient",
+	"description": "styled-jsx language client",
+	"author": "Divlo",
+	"license": "MIT",
+	"version": "0.0.1",
+	"publisher": "Divlo",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Divlo/vscode-styled-jsx"
+	},
+	"ts-standard": {
+		"files": [
+			"./src/**/*.ts"
+		],
+		"envs": [
+			"node"
+		]
+	},
+	"scripts": {
+		"lint": "ts-standard | snazzy",
+		"format": "ts-standard --fix | snazzy"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^7.0.0",
+		"vscode-nls": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/vscode": "1.64.0",
+		"snazzy": "9.0.0",
+		"ts-standard": "11.0.0",
+		"vscode-test": "^1.6.1"
+	}
+}

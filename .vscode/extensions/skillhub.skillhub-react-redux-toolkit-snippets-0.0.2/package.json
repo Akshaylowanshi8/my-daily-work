@@ -1,0 +1,47 @@
+{
+	"name": "skillhub-react-redux-toolkit-snippets",
+	"displayName": "React Redux Toolkit RTK Query Snippets",
+	"description": "React, Redux, Toolkit, RTK Query, React Router Dom V6 Snippets By SKILLHUB",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.81.0"
+	},
+	"author": "SKILLHUB",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skillhubapp/react-redux-toolkit-snippets"
+	},
+	"publisher": "skillhub",
+	"icon": "icon.png",
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "40d577f5-b9cc-4e36-9e20-b8ae259dfea7",
+		"publisherId": "1f472014-729d-4e61-a44d-0d547282ecbe",
+		"publisherDisplayName": "SKILLHUB",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1707120814570,
+		"pinned": false
+	}
+}
